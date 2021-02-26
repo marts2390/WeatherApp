@@ -2,11 +2,9 @@
 
 Welcome to my test, I hope you like it!
 
-It's built with Create React App so just run 'npm run start' and npm will do the rest.
+It's built with Create React App so just run 'npm i' to install the packages, and then run 'npm run start' to start the development server, which will open a window in your browser.
 
-I built this using the BLoC pattern methodology to allow better understanding and readability, and also scalability. Read more about it here:
-
-https://medium.com/dailyjs/introducing-bloc-pattern-with-react-and-rxjs-40109665bb2
+Redux has been used for state and Typscript is used for typing and error management.
 
 The UI is helped along by Material UI developed by the clever guys and gals at Google. 
 
