@@ -1,0 +1,34 @@
+@import "src/view/styles/variables.scss";
+
+.homeScreen {
+  &.isLoading {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: $font-xl;
+      font-weight: $font-medium;
+      margin: 0;
+
+      @media (min-width: $screen-sm) {
+        font-size: $font-xxxl;
+      }
+    }
+  }
+
+  .lastUpdated {
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-weight: $font-medium;
+    font-size: $font-xs;
+  }
+}
